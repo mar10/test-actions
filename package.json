@@ -1,0 +1,73 @@
+{
+  "name": "test-actions",
+  "title": "Persistent JavaScript objects and web forms using Web Storage.",
+  "description": "Persist JavaScript objects to localStorage and remote servers.",
+  "filename": "dist/persisto.min.js",
+  "main": "dist/persisto.js",
+  "version": "0.0.1-0",
+  "homepage": "https://github.com/mar10/test-actions",
+  "author": {
+    "name": "Martin Wendt",
+    "url": "http://careers.stackoverflow.com/martin-wendt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mar10/test-actions"
+  },
+  "bugs": {
+    "url": "https://github.com/mar10/test-actions/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.githubusercontent.com/mar10/test-actions/master/LICENSE.txt"
+    }
+  ],
+  "dependencies": {},
+  "keywords": [
+    "ajax",
+    "cache",
+    "localStorage",
+    "sessionStorage",
+    "ecosystem:jquery",
+    "persistence"
+  ],
+  "devDependencies": {
+    "eslint": "^5.12.0",
+    "eslint-config-prettier": "^3.4.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "grunt": "^1.0.4",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-compress": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-connect": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-qunit": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-eslint": "^21.0.0",
+    "grunt-saucelabs": "^9.0.1",
+    "grunt-text-replace": "^0.4.0",
+    "grunt-yabs": "^1.1.4",
+    "prettier": "^1.15.3"
+  },
+  "peerDependencies": {
+    "jquery": ">=1.12"
+  },
+  "scripts": {
+    "test": "grunt ci --verbose"
+  },
+  "npmName": "test-actions",
+  "npmFileMap": [
+    {
+      "basePath": "dist",
+      "files": [
+        "persisto.js",
+        "persisto.min.js",
+        "persisto.min.js.map"
+      ]
+    }
+  ]
+}
